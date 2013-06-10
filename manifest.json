@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Promedio General UV",
+  "description": "Esta extensión calcula tu Promedio ponderado total usando tu cardex",
+  "version": "1.0",
+  "icons": { 
+    "16": "d1.png",
+    "48": "d2.png",
+    "128": "d3.png" 
+ }
+  ,
+  "permissions": [ "http://*/*" ],
+    "content_scripts": [
+    {
+      "matches": ["http://dsiapes.uv.mx/MiUV/Portales/estudiantes/SZICALC.aspx"],
+      "js": ["jquery.js", "promedio.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "dezka.png",
+    "default_title": "Calculadora de Promedio UV",
+    "default_popup": "calculador.html"
+  }
+}
