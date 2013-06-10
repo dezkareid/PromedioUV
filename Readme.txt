@@ -19,6 +19,8 @@ Descomprime el archivo .zip
 
 En la url de Chrome pega la siguiente url chrome://extensions/ (esta te da acceso a las extensiones que tiene chrome)
 
+Activa el modo desarrollador (Es un checkbox que esta ahi, palomealo)
+
 Da click en el menú que dice cargar extensión sin empaquetar, este te abrira una ventana, busca la carpeta que descomprimiste, seleccionala y listo
 
 Si todo salio bien, un pequeño icono con una D se cargo en tu navegador, sino fue asi, contactame y te asesoro :)
